@@ -29,9 +29,9 @@ func GetClaudeModels() []*ModelInfo {
 			Thinking:            &ThinkingSupport{Min: 1024, Max: 128000, ZeroAllowed: true, DynamicAllowed: false},
 		},
 		{
-			ID:                  "claude-opus-4-6-20261101",
+			ID:                  "claude-opus-4-6-20260205",
 			Object:              "model",
-			Created:             1793491200, // 2026-11-01
+			Created:             1770318000, // 2026-02-05
 			OwnedBy:             "anthropic",
 			Type:                "claude",
 			DisplayName:         "Claude 4.6 Opus",
